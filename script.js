@@ -4,7 +4,6 @@ for (let i = 0; i < 256; i++) {
     let div = document.createElement('div');
     div.classList.add('grid');
     container.appendChild(div);
-    div.textContent = "Test";
 }
 
 // const grid = document.querySelector('.grid');
