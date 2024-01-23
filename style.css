@@ -12,6 +12,7 @@ body {
     width: 512px;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 .grid {
