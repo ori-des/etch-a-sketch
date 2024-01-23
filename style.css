@@ -22,10 +22,6 @@ body {
     height: 30px;
 }
 
-.grid:hover {
-    background-color: black;
-}
-
 .sketch {
     background-color: black;
 }
