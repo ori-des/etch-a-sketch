@@ -5,3 +5,9 @@ for (let i = 0; i < 256; i++) {
     div.classList.add('grid');
     container.appendChild(div);
 }
+
+function addClass(event) {
+    event.target.classList.add('sketch');
+}
+
+container.addEventListener('click', addClass);

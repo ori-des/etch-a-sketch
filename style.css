@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 540px;
+    width: 512px;
     justify-content: center;
     align-items: center;
 }
@@ -22,5 +22,9 @@ body {
 }
 
 .grid:hover {
+    background-color: black;
+}
+
+.sketch {
     background-color: black;
 }
