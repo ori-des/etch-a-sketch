@@ -33,6 +33,7 @@ h1 {
     border-bottom-style: solid;
     border-left-style: solid;
     border-width: 1px;
+    border-color: gray;
     width: 31px;
     height: 31px;
 }
@@ -40,6 +41,7 @@ h1 {
 .mediumGrid {
     border-bottom-style: solid;
     border-left-style: solid;
+    border-color: gray;
     border-width: 1px;
     width: 15px;
     height: 15px;
@@ -48,6 +50,7 @@ h1 {
 .bigGrid {
     border-bottom-style: solid;
     border-left-style: solid;
+    border-color: gray;
     border-width: 1px;
     width: 7px;
     height: 7px;
