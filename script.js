@@ -1,6 +1,5 @@
-const container = document.querySelector('#container');
 
- function createSmallGrid() {
+function createSmallGrid() {
 for (let i = 0; i < 256; i++) {
     let div = document.createElement('div');
     div.classList.add('grid');
@@ -12,4 +11,9 @@ function addClass(event) {
     event.target.classList.add('sketch');
 }
 
+const smallGridBtn = document.querySelector('#small');
+const mediumGridBtn = document.querySelector('#medium');
+const bigGridBtn = document.querySelector('#big');
+const container = document.querySelector('#container');
 container.addEventListener('click', addClass);
+
