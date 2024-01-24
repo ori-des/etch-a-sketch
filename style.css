@@ -30,17 +30,27 @@ h1 {
 }
 
 .smallGrid {
-    border-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
     border-width: 1px;
-    width: 30px;
-    height: 30px;
+    width: 31px;
+    height: 31px;
 }
 
 .mediumGrid {
-    border-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
     border-width: 1px;
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
+}
+
+.bigGrid {
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+    width: 7px;
+    height: 7px;
 }
 
 .grid:hover {
