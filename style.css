@@ -3,6 +3,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
 }
 
 #container {
@@ -13,6 +18,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .grid {
@@ -29,3 +41,4 @@ body {
 .sketch {
     background-color: black;
 }
+
