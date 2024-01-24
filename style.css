@@ -30,34 +30,36 @@ h1 {
     gap: 20px;
 }
 
-.smallGrid {
+.smallGrid ,
+.mediumGrid ,
+.bigGrid {
     border-bottom-style: solid;
     border-left-style: solid;
-    border-width: 2px;
     border-color: gray;
+}
+
+
+.smallGrid {
+    border-width: 2px;
     width: 42px;
     height: 42px;
 }
 
 .mediumGrid {
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-color: gray;
     border-width: 1px;
     width: 21px;
     height: 21px;
 }
 
 .bigGrid {
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-color: gray;
     border-width: 1px;
     width: 10px;
     height: 10px;
 }
 
-.grid:hover {
+.smallGrid:hover ,
+.mediumGrid:hover ,
+.bigGrid:hover {
     background-color: red;
 }
 
