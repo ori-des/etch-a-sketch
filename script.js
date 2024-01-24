@@ -1,10 +1,11 @@
 
 
 function createGrid(gridSize, cssClass) {
-    let div;
     container.innerHTML = '';
+    let div;
     for (let i = 0; i < gridSize; i++) {
         div = document.createElement('div');
+        div.id = "test";
         div.classList.add(cssClass);
         container.appendChild(div);
     }
