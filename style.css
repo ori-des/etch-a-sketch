@@ -31,19 +31,16 @@ h1 {
 }
 
 .smallGrid {
-    border-width: 1px;
     width: 43px;
     height: 43px;
 }
 
 .mediumGrid {
-    border-width: 1px;
     width: 21px;
     height: 21px;
 }
 
 .bigGrid {
-    border-width: 1px;
     width: 10px;
     height: 10px;
 }
