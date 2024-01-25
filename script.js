@@ -20,7 +20,7 @@ const mediumGridBtn = document.querySelector('#medium');
 const bigGridBtn = document.querySelector('#big');
 const container = document.querySelector('#container');
 
-container.addEventListener('click', addClass);
+container.addEventListener('mouseover', addClass);
 smallGridBtn.addEventListener('click', () => createGrid(256, 'smallGrid'));
 mediumGridBtn.addEventListener('click', () => createGrid(1024, 'mediumGrid'));
 bigGridBtn.addEventListener('click', () => createGrid(4096, 'bigGrid'));
