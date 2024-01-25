@@ -30,19 +30,10 @@ h1 {
     gap: 20px;
 }
 
-.smallGrid ,
-.mediumGrid ,
-.bigGrid {
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-color: gray;
-}
-
-
 .smallGrid {
-    border-width: 2px;
-    width: 42px;
-    height: 42px;
+    border-width: 1px;
+    width: 43px;
+    height: 43px;
 }
 
 .mediumGrid {
