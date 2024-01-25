@@ -25,3 +25,5 @@ smallGridBtn.addEventListener('click', () => createGrid(256, 'smallGrid'));
 mediumGridBtn.addEventListener('click', () => createGrid(1024, 'mediumGrid'));
 bigGridBtn.addEventListener('click', () => createGrid(4096, 'bigGrid'));
 
+window.onload = createGrid(256, 'smallGrid');
+
