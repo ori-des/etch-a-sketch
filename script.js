@@ -1,4 +1,4 @@
-
+let mouseDown = false;
 
 function createGrid(gridSize, cssClass) {
     container.innerHTML = '';
@@ -12,7 +12,9 @@ function createGrid(gridSize, cssClass) {
 };
 
 function addClass(event) {
+    if (mouseDown) {
     event.target.classList.add('sketch');
+    }
 };
 
 const smallGridBtn = document.querySelector('#small');
@@ -20,6 +22,8 @@ const mediumGridBtn = document.querySelector('#medium');
 const bigGridBtn = document.querySelector('#big');
 const container = document.querySelector('#container');
 
+container.addEventListener('mousedown', () => mouseDown = true);
+container.addEventListener('mouseup', () => mouseDown = false);
 container.addEventListener('mouseover', addClass);
 smallGridBtn.addEventListener('click', () => createGrid(256, 'smallGrid'));
 mediumGridBtn.addEventListener('click', () => createGrid(1024, 'mediumGrid'));
