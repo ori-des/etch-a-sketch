@@ -20,6 +20,7 @@ h1 {
     align-items: center;
     background-color: white;
     border-style: solid;
+    border-radius: 10px;
     border-width: 5px;
     -webkit-user-drag: none;
     user-select: none;
